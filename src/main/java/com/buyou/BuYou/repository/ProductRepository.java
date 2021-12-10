@@ -1,6 +1,6 @@
 package com.buyou.BuYou.repository;
 
-import com.buyou.BuYou.model.Product;
+import com.buyou.BuYou.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface ProductRepository extends JpaRepository<Product, Integer> {
+public interface ProductRepository extends JpaRepository<Product, Long> {
 
     List<Product> findAll();
 
@@ -20,9 +20,9 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
 
     public List<Product> findAllByOrderByCategoryDesc();
 
-    Optional<Product> findById(Integer id);
+    Optional<Product> findById(Long id);
 
-    void deleteById(Integer id);
+    void deleteById(Long id);
 
     List<Product> findByTitle(String title);
 

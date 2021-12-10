@@ -1,6 +1,6 @@
 package com.buyou.BuYou.service;
 import com.buyou.BuYou.exception.ResourceNotFoundException;
-import com.buyou.BuYou.model.Product;
+import com.buyou.BuYou.entity.Product;
 import com.buyou.BuYou.repository.ProductRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -52,12 +52,12 @@ public class ProductService {
         return productRepository.findAllByOrderByCategoryDesc();
     }
 
-    public Optional<Product> findProductById(Integer id) {
+    public Optional<Product> findProductById(Long id) {
         Optional<Product> result = productRepository.findById(id);
         return result;
     }
 
-    public void deleteProductById(Integer id) {
+    public void deleteProductById(Long id) {
         Optional<Product> product = productRepository.findById(id);
         if (!product.isPresent()){
             throw new ResourceNotFoundException();
@@ -65,7 +65,7 @@ public class ProductService {
         productRepository.deleteById(id);
     }
 
-    public void updateProduct(Integer id, Product productDetails) {
+    public void updateProduct(Long id, Product productDetails) {
         Product product = findProductById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Product", "id", id));
         product.setTitle(productDetails.getTitle());

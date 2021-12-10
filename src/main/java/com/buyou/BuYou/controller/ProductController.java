@@ -1,6 +1,6 @@
 package com.buyou.BuYou.controller;
 
-import com.buyou.BuYou.model.Product;
+import com.buyou.BuYou.entity.Product;
 import com.buyou.BuYou.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -48,12 +48,12 @@ public class ProductController {
     }
 
     @GetMapping(value = "/productById/{id}")
-    public ResponseEntity getProductById(@PathVariable Integer id) {
+    public ResponseEntity getProductById(@PathVariable Long id) {
         return ResponseEntity.ok(productService.findProductById(id));
     }
 
     @DeleteMapping(value = "/products/{id}")
-    public ResponseEntity<Integer> deleteProductById(@PathVariable Integer id) {
+    public ResponseEntity<Long> deleteProductById(@PathVariable Long id) {
         /*        boolean isRemoved = */
         productService.deleteProductById(id);
 
@@ -65,7 +65,7 @@ public class ProductController {
     }
 
     @PutMapping("/products/{id}")
-    public String updateProduct(@PathVariable(value = "id") Integer id,
+    public String updateProduct(@PathVariable(value = "id") Long id,
                              @RequestBody Product productDetails) {
         productService.updateProduct(id, productDetails);
         return "Product updated";

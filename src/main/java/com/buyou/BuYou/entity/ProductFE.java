@@ -1,4 +1,4 @@
-package com.buyou.BuYou.model;
+package com.buyou.BuYou.entity;
 
 public class ProductFE {
     private String title;

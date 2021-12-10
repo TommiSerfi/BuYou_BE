@@ -1,4 +1,4 @@
-package com.buyou.BuYou.model;
+package com.buyou.BuYou.entity;
 
 import javax.persistence.*;
 
@@ -9,7 +9,7 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
-    private Integer id;
+    private Long id;
     @Column(name = "TITLE")
     private String title;
     @Column(name = "AUTHOR")
@@ -19,7 +19,7 @@ public class Product {
     @Column(name = "CATEGORY")
     private String category;
     @Column(name = "QUANTITY")
-    private int quantity;
+    private Integer quantity;
     @Column(name = "BESTSELLER")
     private Boolean bestseller;
     @Column(name = "NOVITA")
@@ -27,7 +27,8 @@ public class Product {
     @Column(name = "RECENSIONI")
     private String recensioni;
 
-    public Product(Integer id, String title, String author, String price, String category, Integer quantity, Boolean bestseller, Boolean novita, String recensioni) {
+    public Product(Long id, String title, String author, String price, String category,
+                   Integer quantity, Boolean bestseller, Boolean novita, String recensioni) {
         this.id = id;
         this.title = title;
         this.author = author;
@@ -42,11 +43,11 @@ public class Product {
     public Product(){
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -90,7 +91,7 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public boolean isBestseller() {
+    public Boolean isBestseller() {
         return bestseller;
     }
 
@@ -98,7 +99,7 @@ public class Product {
         this.bestseller = bestseller;
     }
 
-    public boolean isNovita() {
+    public Boolean isNovita() {
         return novita;
     }
 

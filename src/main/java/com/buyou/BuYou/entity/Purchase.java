@@ -1,39 +1,39 @@
-package com.buyou.BuYou.model;
+package com.buyou.BuYou.entity;
 
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "ORDER")
-public class Order {
+@Table(name = "PURCHASE")
+public class Purchase {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
-    private Integer id;
+    private Long id;
 /*    @ManyToOne  //Bisognerà fare una @OneToMany nell'Entity User
     @JoinColumn(name="USER_ID")
     private User user;*/
-    @Column(name = "ORDER_DATE")
-    private Date order_date;
+    @Column(name = "PURCHASE_DATE")
+    private Date purchaseDate;
     @Column(name = "PRICE")
     private String price;
 
-    public Order(int id, /*User user,*/ Date order_date, String price) {
+    public Purchase(Long id, /*User user,*/ Date purchaseDate, String price) {
         this.id = id;
         /*this.user = user;*/
-        this.order_date = order_date;
+        this.purchaseDate = purchaseDate;
         this.price = price;
     }
 
-    public Order() {
+    public Purchase() {
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -45,12 +45,12 @@ public class Order {
         this.user = user;
     }*/
 
-    public Date getOrder_date() {
-        return order_date;
+    public Date getPurchaseDate() {
+        return purchaseDate;
     }
 
-    public void setOrder_date(Date order_date) {
-        this.order_date = order_date;
+    public void setPurchaseDate(Date purchaseDate) {
+        this.purchaseDate = purchaseDate;
     }
 
     public String getPrice() {
