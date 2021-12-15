@@ -1,14 +1,17 @@
 package com.buyou.BuYou.controller;
 
 import com.buyou.BuYou.entity.User;
+import com.buyou.BuYou.service.MassiveUploadService;
 import com.buyou.BuYou.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.management.relation.Role;
+import java.io.IOException;
 
 @Controller
+@CrossOrigin("http://localhost:4200")
 @RequestMapping(path = "/user")
 public class UserController {
 

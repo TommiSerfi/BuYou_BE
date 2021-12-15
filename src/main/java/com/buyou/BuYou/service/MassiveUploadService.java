@@ -18,9 +18,10 @@ public class MassiveUploadService {
     @Autowired
     private MockService mockService;
 
-    public void uploadEntities() throws IOException{
+    public String uploadEntities() throws IOException{
         List<User> user = mockService.getMock(new TypeReference<List<User>>() {
         }, "massiveUpload/entities/user.json");
         userRepository.saveAll(user);
+        return "Users saved";
     }
 }

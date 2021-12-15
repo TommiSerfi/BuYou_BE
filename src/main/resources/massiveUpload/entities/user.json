@@ -1,0 +1,82 @@
+[
+  {
+    "firstName" : "Marco",
+    "lastName" : "Neri",
+    "email" : "m.neri@prova.com",
+    "username" : "markb",
+    "password" : "pass",
+    "role" : "CUSTOMER"
+  },
+  {
+    "firstName" : "Mario",
+    "lastName" : "Rossi",
+    "email" : "m.rossi@prova.com",
+    "username" : "mariored",
+    "password" : "pass",
+    "role" : "SELLER"
+  },
+  {
+    "firstName" : "Luigi",
+    "lastName" : "Verdi",
+    "email" : "l.verdi@prova.com",
+    "username" : "greengigi",
+    "password" : "pass",
+    "role" : "CUSTOMER"
+  },
+  {
+    "firstName" : "Federico",
+    "lastName" : "Bianchi",
+    "email" : "f.bianchi@prova.com",
+    "username" : "fede",
+    "password" : "pass",
+    "role" : "CUSTOMER"
+  },
+  {
+    "firstName" : "Tommaso",
+    "lastName" : "Rosso",
+    "email" : "t.rosso@prova.com",
+    "username" : "tommirosso",
+    "password" : "pass",
+    "role" : "SELLER"
+  },
+  {
+    "firstName" : "Federica",
+    "lastName" : "Verde",
+    "email" : "f.verde@prova.com",
+    "username" : "fedegreen",
+    "password" : "pass",
+    "role" : "SELLER"
+  },
+  {
+    "firstName" : "Giulia",
+    "lastName" : "Bianco",
+    "email" : "g.bianco@prova.com",
+    "username" : "giuli",
+    "password" : "pass",
+    "role" : "CUSTOMER"
+  },
+  {
+    "firstName" : "Maria",
+    "lastName" : "Rossi",
+    "email" : "m.rossi@prova.com",
+    "username" : "marimari",
+    "password" : "pass",
+    "role" : "SELLER"
+  },
+  {
+    "firstName" : "Paolo",
+    "lastName" : "Neri",
+    "email" : "p.neri@prova.com",
+    "username" : "paolino",
+    "password" : "pass",
+    "role" : "CUSTOMER"
+  },
+  {
+    "firstName" : "Chiara",
+    "lastName" : "Verdi",
+    "email" : "c.verdi@prova.com",
+    "username" : "chia",
+    "password" : "pass",
+    "role" : "CUSTOMER"
+  }
+]

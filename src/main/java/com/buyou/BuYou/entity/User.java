@@ -30,6 +30,7 @@ public class User {
     @Column(name = "CARD_CODE")
     private String cardCode;*/
     @Column(name = "ROLE")
+    @Enumerated(EnumType.STRING)  // Questa annotazione permette di vedere gli enum come stringhe nel DB (invece di 0, 1, 2...)
     private Role role;
 
     protected User(){}
