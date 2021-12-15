@@ -1,0 +1,222 @@
+[
+		{
+			"title":"Fondazione",
+			"author":"Isaac Asimov",
+			"category":"Fantascienza",
+			"price":30.40,
+			"quantity":19,
+			"bestseller":false,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Il Signore degli Anelli - La Compagnia dell'Anello",
+			"author":"J. R. R. Tolkien",
+			"category":"Fantascienza",
+			"price":22.80,
+			"quantity":30,
+			"bestseller":true,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Il Giro del Mondo in 80 Giorni",
+			"author":"Jules Verne",
+			"category":"Avventura",
+			"price":8.07,
+			"quantity":25,
+			"bestseller":true,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Come Roma Insegna",
+			"author":"Valerio Massimo Manfredi",
+			"category":"Storico",
+			"price":15.67,
+			"quantity":11,
+			"bestseller":false,
+			"novita":true,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Le Due Torri",
+			"author":"J. R. R. Tolkien",
+			"category":"Fantascienza",
+			"price":15.00,
+			"quantity":5,
+			"bestseller":false,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"L'ultimo Duello",
+			"author":"Eric Jager",
+			"category":"Storico",
+			"price":14.25,
+			"quantity":13,
+			"bestseller":false,
+			"novita":true,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Billy Summers",
+			"author":"Stephen King",
+			"category":"Thriller",
+			"price":20.00,
+			"quantity":20,
+			"bestseller":true,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Il Regno dei Malvagi",
+			"author":"Kerry Maniscalco",
+			"category":"Thriller",
+			"price":19.00,
+			"quantity":23,
+			"bestseller":false,
+			"novita":true,
+			"recensioni":""
+		},
+		
+		{
+			"title":"La Famiglia del Piano di Sopra",
+			"author":"Lisa Jewell",
+			"category":"Thriller",
+			"price":19.10,
+			"quantity":20,
+			"bestseller":false,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"La Figlia degli Abissi",
+			"author":"Rick Riordan",
+			"category":"Per Bambini",
+			"price":17.10,
+			"quantity":8,
+			"bestseller":false,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"La Biblioteca dei Segreti",
+			"author":"Beatrice Lai",
+			"category":"Per Bambini",
+			"price":15.99,
+			"quantity":15,
+			"bestseller":false,
+			"novita":true,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Sophie sui Tetti di Parigi",
+			"author":"Katherine Rundell",
+			"category":"Per Bambini",
+			"price":11.40,
+			"quantity":33,
+			"bestseller":false,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"It",
+			"author":"Stephen King",
+			"category":"Horror",
+			"price":17.95,
+			"quantity":37,
+			"bestseller":true,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Frankenstein",
+			"author":"Mary Shelley",
+			"category":"Horror",
+			"price":4.66,
+			"quantity":17,
+			"bestseller":false,
+			"novita":true,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Le Streghe",
+			"author":"Paolo Prevedoni",
+			"category":"Horror",
+			"price":15.20,
+			"quantity":26,
+			"bestseller":false,
+			"novita":true,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Dune",
+			"author":"Frank Herbert",
+			"category":"Fantascienza",
+			"price":19.00,
+			"quantity":30,
+			"bestseller":true,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Io, Robot",
+			"author":"Isaac Asimov",
+			"category":"Fantascienza",
+			"price":12.80,
+			"quantity":16,
+			"bestseller":true,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Il Silmarillion",
+			"author":"J. R. R. Tolkien",
+			"category":"Fantascienza",
+			"price":13.30,
+			"quantity":23,
+			"bestseller":false,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Lo Hobbit",
+			"author":"J. R. R. Tolkien",
+			"category":"Fantascienza",
+			"price":10.45,
+			"quantity":23,
+			"bestseller":true,
+			"novita":false,
+			"recensioni":""
+		},
+		
+		{
+			"title":"Il Signore degli Anelli - Il Ritorno del Re",
+			"author":"J. R. R. Tolkien",
+			"category":"Fantascienza",
+			"price":14.25,
+			"quantity":23,
+			"bestseller":false,
+			"novita":false,
+			"recensioni":""
+		}
+		
+]

@@ -2,11 +2,6 @@ package com.buyou.BuYou.entity;
 
 import javax.persistence.*;
 
-enum Role {
-    CUSTOMER,
-    SELLER;
-}
-
 @Entity
 @Table(name = "USER")
 public class User {
@@ -29,19 +24,20 @@ public class User {
     private String address;
     @Column(name = "CARD_CODE")
     private String cardCode;*/
-    @Column(name = "ROLE")
-    private Role role;
+    @Column(name = "ROLE_TYPE")
+    @Enumerated(EnumType.STRING)
+    private RoleType roleType;
 
     protected User(){}
 
-    public User(Long id, String firstName, String lastName, String email, String username, String password, Role role) {
+    public User(Long id, String firstName, String lastName, String email, String username, String password, RoleType roleType) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.username = username;
         this.password = password;
-        this.role = role;
+        this.roleType = roleType;
     }
 
     public Long getId() {
@@ -92,11 +88,11 @@ public class User {
         this.password = password;
     }
 
-    public Role getRole() {
-        return role;
+    public RoleType getRoleType() {
+        return roleType;
     }
 
-    public void setRole(Role role) {
-        this.role = role;
+    public void setRoleType(RoleType roleType) {
+        this.roleType = roleType;
     }
 }
