@@ -15,11 +15,15 @@ public class Product {
     @Column(name = "AUTHOR")
     private String author;
     @Column(name = "PRICE")
-    private String price;
+    private Double price;
     @Column(name = "CATEGORY")
     private String category;
     @Column(name = "QUANTITY")
     private Integer quantity;
+    @Column(name = "IMAGE")
+    private String image;
+    @Column(name = "PLOT")
+    private String plot;
     @Column(name = "BESTSELLER")
     private Boolean bestseller;
     @Column(name = "NOVITA")
@@ -27,14 +31,16 @@ public class Product {
     @Column(name = "RECENSIONI")
     private String recensioni;
 
-    public Product(Long id, String title, String author, String price, String category,
-                   Integer quantity, Boolean bestseller, Boolean novita, String recensioni) {
+    public Product(Long id, String title, String author, Double price, String category,
+                   Integer quantity, String image, String plot, Boolean bestseller, Boolean novita, String recensioni) {
         this.id = id;
         this.title = title;
         this.author = author;
         this.price = price;
         this.category = category;
         this.quantity = quantity;
+        this.image = image;
+        this.plot = plot;
         this.bestseller = bestseller;
         this.novita = novita;
         this.recensioni = recensioni;
@@ -67,11 +73,11 @@ public class Product {
         this.author = author;
     }
 
-    public String getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
@@ -89,6 +95,22 @@ public class Product {
 
     public void setQuantity(Integer quantity) {
         this.quantity = quantity;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getPlot() {
+        return plot;
+    }
+
+    public void setPlot(String plot) {
+        this.plot = plot;
     }
 
     public Boolean isBestseller() {

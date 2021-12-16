@@ -70,7 +70,7 @@ public class ProductService {
                 .orElseThrow(() -> new ResourceNotFoundException("Product", "id", id));
         product.setTitle(productDetails.getTitle());
         product.setAuthor(productDetails.getAuthor());
-        product.setPrice(productDetails.getAuthor());
+        product.setPrice(productDetails.getPrice());
         product.setCategory(productDetails.getCategory());
 
         /* Product updatedProduct = */ productRepository.save(product);
