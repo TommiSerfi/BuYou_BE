@@ -6,7 +6,7 @@
 			"price":30.40,
 			"quantity":19,
 			"image":"Fondazione_Asimov.jpg",
-			"trama": "La storia è ambientata nella nostra Galassia, in un futuro remoto e si suddivide in cinque parti, ognuna caratterizzata da una crisi, ovvero dei periodi critici previsti dallo scienziato Hari Seldon attraverso la psicostoria, scienza da questi sviluppata e in grado di prevedere statisticamente il futuro.",
+			"plot": "La storia è ambientata nella nostra Galassia, in un futuro remoto e si suddivide in cinque parti, ognuna caratterizzata da una crisi, ovvero dei periodi critici previsti dallo scienziato Hari Seldon attraverso la psicostoria, scienza da questi sviluppata e in grado di prevedere statisticamente il futuro.",
 			"bestseller":false,
 			"novita":false,
 			"recensioni":""
@@ -19,7 +19,7 @@
 			"price":22.80,
 			"quantity":30,
 			"image":"Compagnia_Anello_Tolkien.jpg",
-			"trama": "Il malvagio Sauron, re di Mordor, forgia 20 anelli magici che dona ai signori delle altre Sette che vivono nella Terra di Mezzo tenendo per sé 'L'Unico', l'anello che dà a chi lo indossa la supremazia sugli altri. Scoperto l'oscuro disegno, i 19 signori ingaggiano una sanguinosa battaglia contro Sauron",
+			"plot": "Il malvagio Sauron, re di Mordor, forgia 20 anelli magici che dona ai signori delle altre Sette che vivono nella Terra di Mezzo tenendo per sé 'L'Unico', l'anello che dà a chi lo indossa la supremazia sugli altri. Scoperto l'oscuro disegno, i 19 signori ingaggiano una sanguinosa battaglia contro Sauron",
 			"bestseller":true,
 			"novita":false,
 			"recensioni":""
@@ -32,7 +32,7 @@
 			"price":8.07,
 			"quantity":25,
 			"image":"Giro_del_Mondo_Verne.jpg",
-			"trama": "Il gentleman inglese Phileas Fogg, di Londra, e il suo nuovo cameriere francese Jean Passepartout tentano di circumnavigare il globo in 80 giorni, per vincere la scommessa di 20.000 sterline stipulata con gli altri soci del Reform Club.",
+			"plot": "Il gentleman inglese Phileas Fogg, di Londra, e il suo nuovo cameriere francese Jean Passepartout tentano di circumnavigare il globo in 80 giorni, per vincere la scommessa di 20.000 sterline stipulata con gli altri soci del Reform Club.",
 			"bestseller":true,
 			"novita":false,
 			"recensioni":""
@@ -45,7 +45,7 @@
 			"price":15.67,
 			"quantity":11,
 			"image":"Come_Roma_Insegna_Manfredi.jpg",
-			"trama": "Molti imperi scompaiono avendo lasciato dietro di sé un campo di sterminio, rovine, massacri e... niente altro. Roma ha lasciato invece una civiltà. Viviamo ancora nella sua legge, ci avvantaggiamo del suo sistema di comunicazione, delle poderose e geniali tecniche costruttive, parliamo la sua lingua in tante parti del mondo.",
+			"plot": "Molti imperi scompaiono avendo lasciato dietro di sé un campo di sterminio, rovine, massacri e... niente altro. Roma ha lasciato invece una civiltà. Viviamo ancora nella sua legge, ci avvantaggiamo del suo sistema di comunicazione, delle poderose e geniali tecniche costruttive, parliamo la sua lingua in tante parti del mondo.",
 			"bestseller":false,
 			"novita":true,
 			"recensioni":""
@@ -58,7 +58,7 @@
 			"price":15.00,
 			"quantity":5,
 			"image":"Le_Due_Torri_Tolkien.jpg",
-			"trama": "Frodo Baggins e Sam, sfuggiti all’attacco degli Uruk-hai, si dirigono verso Mordor. Sul loro cammino, però, si imbattono in Gollum, creatura deforme che dimostra di bramare ardentemente l’anello portato dall’hobbit. Nel frattempo, Aragorn, Legolas e Gimbli continuano il loro viaggio, imbattendosi incredibilmente in Gandalf, che credevano morto e ora risorto sotto nuove vesti.",
+			"plot": "Frodo Baggins e Sam, sfuggiti all’attacco degli Uruk-hai, si dirigono verso Mordor. Sul loro cammino, però, si imbattono in Gollum, creatura deforme che dimostra di bramare ardentemente l’anello portato dall’hobbit. Nel frattempo, Aragorn, Legolas e Gimbli continuano il loro viaggio, imbattendosi incredibilmente in Gandalf, che credevano morto e ora risorto sotto nuove vesti.",
 			"bestseller":false,
 			"novita":false,
 			"recensioni":""
@@ -71,7 +71,7 @@
 			"price":14.25,
 			"quantity":13,
 			"image":"Ultimo_Duello_Jager.jpg",
-			"trama": "Ambientato nel XIV secolo, in Francia, The Last Duel si basa su una storia realmente accaduta e racconta le vicende del cavaliere Jean de Carrouges che, dopo aver saputo dalla moglie che il suo migliore amico ha abusato di lei, decide di sfidare a duello a morte quest’ultimo.",
+			"plot": "Ambientato nel XIV secolo, in Francia, The Last Duel si basa su una storia realmente accaduta e racconta le vicende del cavaliere Jean de Carrouges che, dopo aver saputo dalla moglie che il suo migliore amico ha abusato di lei, decide di sfidare a duello a morte quest’ultimo.",
 			"bestseller":false,
 			"novita":true,
 			"recensioni":""
@@ -84,7 +84,7 @@
 			"price":20.00,
 			"quantity":20,
 			"image":"Billy_King.jpg",
-			"trama": "Billy Summers narra la storia di un serial killer su commissione. È il migliore nel suo settore ma vorrebbe smettere. Il sicario, definito come “un bravo ragazzo impegnato in un brutto lavoro, un Houdini del crimine, capace di dileguarsi nel nulla una volta compiuto il lavoro”, uccide solo i cattivi.",
+			"plot": "Billy Summers narra la storia di un serial killer su commissione. È il migliore nel suo settore ma vorrebbe smettere. Il sicario, definito come “un bravo ragazzo impegnato in un brutto lavoro, un Houdini del crimine, capace di dileguarsi nel nulla una volta compiuto il lavoro”, uccide solo i cattivi.",
 			"bestseller":true,
 			"novita":false,
 			"recensioni":""
@@ -97,7 +97,7 @@
 			"price":19.00,
 			"quantity":23,
 			"image":"Il_Regno_dei_Malvagi_Maniscalco.jpg",
-			"trama": "Emilia e Vittoria sono gemelle; appartengono a una delle tredici famiglie di streghe nascoste a Palermo ma, come tutte, stanno bene attente a celare la loro vera natura. Per questo lavorano da Mare e Vino, il rinomato ristorante di famiglia, come due normalissime ragazze.",
+			"plot": "Emilia e Vittoria sono gemelle; appartengono a una delle tredici famiglie di streghe nascoste a Palermo ma, come tutte, stanno bene attente a celare la loro vera natura. Per questo lavorano da Mare e Vino, il rinomato ristorante di famiglia, come due normalissime ragazze.",
 			"bestseller":false,
 			"novita":true,
 			"recensioni":""
@@ -110,7 +110,7 @@
 			"price":19.10,
 			"quantity":20,
 			"image":"Famiglia_Piano_di_Sopra_Jewell.jpg",
-			"trama": "Una vicenda di cronaca nera irrimediabilmente consegnata al passato per Scotland Yard, una ferita tragicamente riaperta per Libby, ovvero Serenity Lamb, la bambina che venticinque anni prima era stata adottata dai signori Jones, diventando Libby Jones.",
+			"plot": "Una vicenda di cronaca nera irrimediabilmente consegnata al passato per Scotland Yard, una ferita tragicamente riaperta per Libby, ovvero Serenity Lamb, la bambina che venticinque anni prima era stata adottata dai signori Jones, diventando Libby Jones.",
 			"bestseller":false,
 			"novita":false,
 			"recensioni":""
@@ -123,7 +123,7 @@
 			"price":17.10,
 			"quantity":8,
 			"image":"La_Figlia_degli_Abissi.jpg",
-			"trama": "Catapultati nella guerra tra due istituti navali in rivalità, Ana e i suoi compagni tenteranno una disperata fuga attraverso l'oceano. È allora che la ragazza scoprirà la verità sulle proprie origini, insieme alla causa per cui i genitori hanno perso la vita: il Nautilus, il leggendario sottomarino del Capitano Nemo",
+			"plot": "Catapultati nella guerra tra due istituti navali in rivalità, Ana e i suoi compagni tenteranno una disperata fuga attraverso l'oceano. È allora che la ragazza scoprirà la verità sulle proprie origini, insieme alla causa per cui i genitori hanno perso la vita: il Nautilus, il leggendario sottomarino del Capitano Nemo",
 			"bestseller":false,
 			"novita":false,
 			"recensioni":""
@@ -136,7 +136,7 @@
 			"price":15.99,
 			"quantity":15,
 			"image":"Biblioteca_Segreti_Lai.jpg",
-			"trama": "Malatestiana nasconde un segreto custodito da troppi anni, un segreto che conduce in mondi fantastici. Tommaso e Olivia amano leggere e amano i grandi classici della letteratura per ragazzi, ma non sanno che le storie fantastiche da loro tanto amate stanno per tramutarsi in realtà.",
+			"plot": "Malatestiana nasconde un segreto custodito da troppi anni, un segreto che conduce in mondi fantastici. Tommaso e Olivia amano leggere e amano i grandi classici della letteratura per ragazzi, ma non sanno che le storie fantastiche da loro tanto amate stanno per tramutarsi in realtà.",
 			"bestseller":false,
 			"novita":true,
 			"recensioni":""
@@ -149,7 +149,7 @@
 			"price":11.40,
 			"quantity":33,
 			"image":"Tetti_Parigi_Rundell.jpg",
-			"trama": "Una neonata viene trovata nella custodia di un violoncello da un signore di nome Charles, e visto che non la vuole abbandonare decide che da quel giorno sarebbe stato suo padre. Chiamò la bambina Sophie e decise che il giorno in cui l'ebbe trovata sarebbe stato il suo compleanno.",
+			"plot": "Una neonata viene trovata nella custodia di un violoncello da un signore di nome Charles, e visto che non la vuole abbandonare decide che da quel giorno sarebbe stato suo padre. Chiamò la bambina Sophie e decise che il giorno in cui l'ebbe trovata sarebbe stato il suo compleanno.",
 			"bestseller":false,
 			"novita":false,
 			"recensioni":""
@@ -162,7 +162,7 @@
 			"price":17.95,
 			"quantity":37,
 			"image":"It_King.jpg",
-			"trama": "Una misteriosa entità multiforme si risveglia da un letargo di 27 anni trascorso nelle viscere della città di Derry, Maine, e assume la forma del clown Pennywise. Il primo incontro avviene con un bambino di sei anni, Georgie Denbrough, che sta tentando di recuperare una barchetta di carta da un canale di scolo.",
+			"plot": "Una misteriosa entità multiforme si risveglia da un letargo di 27 anni trascorso nelle viscere della città di Derry, Maine, e assume la forma del clown Pennywise. Il primo incontro avviene con un bambino di sei anni, Georgie Denbrough, che sta tentando di recuperare una barchetta di carta da un canale di scolo.",
 			"bestseller":true,
 			"novita":false,
 			"recensioni":""
@@ -175,7 +175,7 @@
 			"price":4.66,
 			"quantity":17,
 			"image":"Frenkestein_Shelley.jpg",
-			"trama": "Victor Frankenstein è un giovane scienziato ginevrino, che, spinto dall'ardore della ricerca scientifica, trova il modo di creare la vita. Costruisce così una creatura umana con pezzi di cadaveri, ma è atterrito dalla mostruosità della sua creazione.",
+			"plot": "Victor Frankenstein è un giovane scienziato ginevrino, che, spinto dall'ardore della ricerca scientifica, trova il modo di creare la vita. Costruisce così una creatura umana con pezzi di cadaveri, ma è atterrito dalla mostruosità della sua creazione.",
 			"bestseller":false,
 			"novita":true,
 			"recensioni":""
@@ -188,7 +188,7 @@
 			"price":15.20,
 			"quantity":26,
 			"image":"Streghe_Prevedoni.jpg",
-			"trama": "Le streghe esistono, e si svegliano al calar delle tenebre. Questo è quello che si racconta a Bellula, un piccolo borgo del Monferrato dove i bambini scompaiono nel nulla. Gli abitanti del paese sono convinti che le sparizioni siano legate ad una strega leggendaria, che da quelle parti chiamano la Masca.",
+			"plot": "Le streghe esistono, e si svegliano al calar delle tenebre. Questo è quello che si racconta a Bellula, un piccolo borgo del Monferrato dove i bambini scompaiono nel nulla. Gli abitanti del paese sono convinti che le sparizioni siano legate ad una strega leggendaria, che da quelle parti chiamano la Masca.",
 			"bestseller":false,
 			"novita":true,
 			"recensioni":""
@@ -201,7 +201,7 @@
 			"price":19.00,
 			"quantity":30,
 			"image":"Dune_Herbert.jpg",
-			"trama": "Arrakis è il pianeta più inospitale della galassia, popolato da mostri striscianti e sferzato da tempeste devastanti. Ma sulla sua superficie cresce il melange, sostanza che dà agli uomini la facoltà di aprire i propri orizzonti mentali, conoscere il futuro, acquisire capacità per manovrare le immense astronavi che garantiscono gli scambi tra i mondi. È l'inizio di uno scontro cosmico tra forze straordinarie e intelligenze sconosciute e insondabili.",
+			"plot": "Arrakis è il pianeta più inospitale della galassia, popolato da mostri striscianti e sferzato da tempeste devastanti. Ma sulla sua superficie cresce il melange, sostanza che dà agli uomini la facoltà di aprire i propri orizzonti mentali, conoscere il futuro, acquisire capacità per manovrare le immense astronavi che garantiscono gli scambi tra i mondi. È l'inizio di uno scontro cosmico tra forze straordinarie e intelligenze sconosciute e insondabili.",
 			"bestseller":true,
 			"novita":false,
 			"recensioni":""
@@ -214,7 +214,7 @@
 			"price":12.80,
 			"quantity":16,
 			"image":"Robot_Asimov.jpg",
-			"trama": "Quando Alfred Lanning, fondatore di una nota azienda di robotica, viene assassinato, il caso viene assegnato al detective Del Spooner. Insieme alla dottoressa Susan Calvin, esperta delle intelligenze artificiali, l'uomo ipotizza che il colpevole possa essere un robot.",
+			"plot": "Quando Alfred Lanning, fondatore di una nota azienda di robotica, viene assassinato, il caso viene assegnato al detective Del Spooner. Insieme alla dottoressa Susan Calvin, esperta delle intelligenze artificiali, l'uomo ipotizza che il colpevole possa essere un robot.",
 			"bestseller":true,
 			"novita":false,
 			"recensioni":""
@@ -227,7 +227,7 @@
 			"price":13.30,
 			"quantity":23,
 			"image":"Silmarillion_Tolkien.jpg",
-			"trama": "Il Silmarillion, che comprende cinque racconti legati come i capitoli di un'unica storia sacra, narra la parabola di una caduta: dalla \"musica degli inizi\", il momento cosmogonico, alla guerra di Elfi e Uomini contro l'Avversario. L'ultimo dei racconti costituisce l'antecedente immediato del \"Signore degli Anelli\".",
+			"plot": "Il Silmarillion, che comprende cinque racconti legati come i capitoli di un'unica storia sacra, narra la parabola di una caduta: dalla \"musica degli inizi\", il momento cosmogonico, alla guerra di Elfi e Uomini contro l'Avversario. L'ultimo dei racconti costituisce l'antecedente immediato del \"Signore degli Anelli\".",
 			"bestseller":false,
 			"novita":false,
 			"recensioni":""
@@ -240,7 +240,7 @@
 			"price":10.45,
 			"quantity":23,
 			"image":"Hobbit_Tolkien.jpg",
-			"trama": "Lo Hobbit narra le vicende di Bilbo Baggins, un piccolo Hobbit di Hobbiville, e di come nelle sue mani giunse l’Unico Anello, l’oggetto più malvagio e pericoloso di tutta la Terra di Mezzo, forgiato dall’Oscuro Signore Sauron per scatenare tutta la sua malefica potenza sui reami del tempo e sottometterli.",
+			"plot": "Lo Hobbit narra le vicende di Bilbo Baggins, un piccolo Hobbit di Hobbiville, e di come nelle sue mani giunse l’Unico Anello, l’oggetto più malvagio e pericoloso di tutta la Terra di Mezzo, forgiato dall’Oscuro Signore Sauron per scatenare tutta la sua malefica potenza sui reami del tempo e sottometterli.",
 			"bestseller":true,
 			"novita":false,
 			"recensioni":""
@@ -253,7 +253,7 @@
 			"price":14.25,
 			"quantity":23,
 			"image":"Il_Ritorno_Del_Re_Tolkien.jpg",
-			"trama": "Le forze di Sauron hanno attaccato la capitale di Gondor, Minas Tirith, nel suo assedio finale contro l'umanità. Tenuto da un debole sovrintendente, quello che una volta era un fastoso regno non ha mai avuto così bisogno del proprio re.",
+			"plot": "Le forze di Sauron hanno attaccato la capitale di Gondor, Minas Tirith, nel suo assedio finale contro l'umanità. Tenuto da un debole sovrintendente, quello che una volta era un fastoso regno non ha mai avuto così bisogno del proprio re.",
 			"bestseller":false,
 			"novita":false,
 			"recensioni":""
